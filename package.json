@@ -25,14 +25,14 @@
     "wrangler": "4.15.2"
   },
   "scripts": {
-    "astro": "astro",
-    "build": "astro build",
-    "check": "astro build && tsc && wrangler deploy --dry-run",
-    "deploy": "astro build && wrangler deploy",
-    "start": "astro dev",
-    "dev": "astro dev",
-    "preview": "astro build && wrangler dev",
-    "types": "wrangler types"
+    "astro": "pnpm astro",
+    "build": "pnpm astro build",
+    "check": "pnpm astro build && tsc && wrangler deploy --dry-run",
+    "deploy": "pnpm astro build && wrangler deploy",
+    "start": "pnpm astro dev",
+    "dev": "pnpm astro dev",
+    "preview": "pnpm astro build && wrangler dev",
+    "types": "pnpm wrangler types"
   },
   "type": "module"
 }
