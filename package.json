@@ -34,5 +34,6 @@
     "preview": "pnpm astro build && wrangler dev",
     "types": "pnpm wrangler types"
   },
-  "type": "module"
+  "type": "module",
+  "packageManager": "pnpm@10.10.0"
 }
